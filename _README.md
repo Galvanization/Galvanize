@@ -4,9 +4,9 @@
 
 ## Team
 
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
+  - __Product Owner__: John Zhang
+  - __Scrum Master__: John Games
+  - __Development Team Members__: Eli Xian, Sean Kim
 
 ## Table of Contents
 
@@ -24,11 +24,8 @@
 
 ## Requirements
 
-- Node 0.10.x
-- Redis 2.6.x
-- Postgresql 9.1.x
-- etc
-- etc
+- Rust 1.0.0 beta
+- Hyper 0.3.9
 
 ## Development
 
@@ -36,15 +33,12 @@
 
 From within the root directory:
 
-```sh
-sudo npm install -g bower
-npm install
-bower install
-```
+In your lib.rs or main.rs use: `extern crate hyper;`
+In your Cargo.toml add `hyper ="*"` under `[dependencies]`
 
 ### Roadmap
 
-View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
+View the project roadmap [here](https://github.com/Galvanization/Galvanize/issues)
 
 
 ## Contributing
