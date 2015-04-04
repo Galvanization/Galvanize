@@ -1,4 +1,7 @@
 [package]
 name = "stealing"
 version = "0.0.1"
-authors = ["Johnnygames <johnegames@gmail.com>"]
+authors = [Eli, John Z., Sean, John G.]
+
+[dependencies]
+hyper = "*"
